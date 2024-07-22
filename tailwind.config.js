@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['/index.html'],
+  content: ['*.html'],
   theme: {
     extend: {
       colors: {
@@ -10,6 +10,9 @@ module.exports = {
         'Neutral-Very-Dark-Blue-Card': 'hsl(216, 50%, 16%)',
         'Neutral-Very-Dark-Blue-Line': 'hsl(215, 32%, 27%)',
         'Neutral-White': 'hsl(0, 0%, 100%)'
+      },
+      fontFamily: {
+        'Outfit' : ['Outfit', 'sans-serif']
       }
     },
   },
